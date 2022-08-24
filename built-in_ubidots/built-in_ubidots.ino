@@ -35,11 +35,11 @@ static float imuzValue = 0;
 static int soundValue = 0;
 
 // Space to store values to send
-char str_light[6];
-char str_imux[6];
-char str_imuy[6];
-char str_imuz[6];
-char str_sound[6];
+static char str_light[6];
+static char str_imux[6];
+static char str_imuy[6];
+static char str_imuz[6];
+static char str_sound[6];
 char payload[700];
 char topic[150];
 
